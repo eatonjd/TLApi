@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  tlapi:
+    image: tlapi
+    build:
+      context: .
+      dockerfile: TLApi\Dockerfile
